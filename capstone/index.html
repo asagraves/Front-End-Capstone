@@ -3,30 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title>Cheveux Pure</title>
-    <link rel="stylesheet" href="./lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./styles/main.css">
+    <!-- <link rel="stylesheet" href="./lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/main.css"> -->
   </head>
 
 <body ng-app="CheveuxPure">
 
-    <a class="authPage" href="/#/">Auth</a>
+    <a class="authPage" href="/#/home">stuff</a>
 
 
-    <p>The Start</p>
+    
+
+
+        <div id="container-fluid">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <!-- Navigation -->
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="/#/userAuth">Authorize</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div ng-view></div>
 
 
 
 
+                <!-- Javascript Land -->
+    <script src="lib/bower_components/angular/angular.min.js"></script>
+    <script src="lib/bower_components/angular-route/angular-route.min.js"></script>
+    <script src="lib/bower_components/firebase/firebase.js"></script>
+    <script src="lib/bower_components/angularfire/dist/angularfire.js"></script>
+
+
+    <script src="app/routeProvider.js"></script>
+    <script src="app/controllers/authUser.js"></script>
+    <script src="app/controllers/mainPage.js"></script>
 
 
   </body>
-
-
-
-
-
-
-
-
-
 </html>
+
+
+
+
+
