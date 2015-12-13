@@ -1,9 +1,10 @@
 app.controller("mainPage", ["$scope", "$firebaseArray", "logging",
   function($scope, $firebaseArray, logging){
-    console.log("hey ", logging);
+    console.log("hey", logging);
     var ref = new Firebase("https://cheveux-pure.firebaseio.com");
     // var logout = ("#logout");
 
+      //log user in
      var ref = new Firebase("https://cheveux-pure.firebaseio.com");
       ref.authWithOAuthPopup("google", function(error, authData) {
         if (error) {
@@ -14,6 +15,18 @@ app.controller("mainPage", ["$scope", "$firebaseArray", "logging",
           console.log(logging.getUid());
         }
       })
+
+      // var ref = new Firebase("https://<YOUR-FIREBASE-APP>.firebaseio.com");
+      //   ref.authWithOAuthPopup("google", function(error, authData) { /* Your Code */ }, {
+      //     remember: "sessionOnly",
+      //     scope: "email"
+      //   });
+
+
+
+
+
+    
 
 
 
