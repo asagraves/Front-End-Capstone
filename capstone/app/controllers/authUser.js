@@ -1,22 +1,18 @@
-app.controller("authUser", ["$scope", "$firebaseArray", "logging", 
-  function($scope, $firebaseArray, logging){
-    var ref = new Firebase("https://cheveux-pure.firebaseio.com");
+// app.controller("authUser", ["$scope", "$firebaseArray", "logging", 
+//   function($scope, $firebaseArray, logging){
+//     var ref = new Firebase("https://cheveux-pure.firebaseio.com");
 
 
 
-     // Logout user
-    $scope.logout = function() {
-      console.log("Preparing to log user out");
+//      // Logout user
+//     $scope.logout = function() {
+//       console.log("Preparing to log user out");
 
-      var ref = new Firebase("https://cheveux-pure.firebaseio.com/" + logging.getUid() + "/");
-        console.log("lisapertee", logout);
-      ref.unauth();
-      location.reload();
-    };
-
-
-
-
+//       var ref = new Firebase("https://cheveux-pure.firebaseio.com/" + logging.getUid() + "/");
+//         console.log("lisapertee", logout);
+//       ref.unauth();
+//       location.reload();
+//     };
 
 
 
@@ -29,7 +25,11 @@ app.controller("authUser", ["$scope", "$firebaseArray", "logging",
 
 
 
-}]);
+
+
+
+
+// }]);
   // var ref = new Firebase("https://cheveux-pure.firebaseio.com");
   // ref.authWithOAuthPopup("google", function(error, authData) {
   //   if (error) {

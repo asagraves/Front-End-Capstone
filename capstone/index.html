@@ -3,27 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Cheveux Pure</title>
-    <!-- <link rel="stylesheet" href="./lib/bower_components/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/main.css">
   </head>
 
 <body ng-app="CheveuxPure">
 
-    <a class="authPage" href="/#/home">Authorize</a>
-        <div id="container-fluid">
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <!-- Navigation -->
-                <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="/#/userAuth">Logout</a>
-                    </div>
-                </nav>
-            </div>
-        </div>
-
         <div ng-view></div>
 
+
+
+
+
+
+
+
+
+
+
+
+
                 <!-- Javascript Land -->
+    <script src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="lib/bower_components/angular/angular.min.js"></script>
     <script src="lib/bower_components/angular-route/angular-route.min.js"></script>
     <script src="lib/bower_components/firebase/firebase.js"></script>
@@ -32,9 +34,9 @@
 
 
     <script src="app/routeProvider.js"></script>
-    <script src="app/factories/logging.js"></script>
-    <script src="app/controllers/authUser.js"></script>
-    <script src="app/controllers/mainPage.js"></script>
+    <!-- // <script src="app/factories/logging.js"></script> -->
+    <script src="app/controllers/parallax.js"></script>
+    <!-- // <script src="app/controllers/mainPage.js"></script> -->
 
 
 </body>

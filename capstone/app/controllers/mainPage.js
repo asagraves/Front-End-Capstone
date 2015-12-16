@@ -1,26 +1,26 @@
-app.controller("mainPage", ["$scope", "$firebaseArray", "logging",
-  function($scope, $firebaseArray, logging){
-    console.log("hey", logging);
-    var ref = new Firebase("https://cheveux-pure.firebaseio.com");
-    // var logout = ("#logout");
+// app.controller("mainPage", ["$scope", "$firebaseArray", "logging",
+//   function($scope, $firebaseArray, logging){
+//     console.log("hey", logging);
+//     var ref = new Firebase("https://cheveux-pure.firebaseio.com");
+//     // var logout = ("#logout");
 
-      //log user in
-     var ref = new Firebase("https://cheveux-pure.firebaseio.com");
-      ref.authWithOAuthPopup("google", function(error, authData) {
-        if (error) {
-          console.log("Login Failed!", error);
-        } else {
-          console.log("Authenticated successfully with payload:", authData);
-          logging.setUid(authData.uid);
-          console.log(logging.getUid());
-        }
-      })
+//       //log user in
+//      var ref = new Firebase("https://cheveux-pure.firebaseio.com");
+//       ref.authWithOAuthPopup("google", function(error, authData) {
+//         if (error) {
+//           console.log("Login Failed!", error);
+//         } else {
+//           console.log("Authenticated successfully with payload:", authData);
+//           logging.setUid(authData.uid);
+//           console.log(logging.getUid());
+//         }
+//       })
 
-      // var ref = new Firebase("https://<YOUR-FIREBASE-APP>.firebaseio.com");
-      //   ref.authWithOAuthPopup("google", function(error, authData) { /* Your Code */ }, {
-      //     remember: "sessionOnly",
-      //     scope: "email"
-      //   });
+//       // var ref = new Firebase("https://<YOUR-FIREBASE-APP>.firebaseio.com");
+//       //   ref.authWithOAuthPopup("google", function(error, authData) { /* Your Code */ }, {
+//       //     remember: "sessionOnly",
+//       //     scope: "email"
+//       //   });
 
 
 
@@ -30,13 +30,13 @@ app.controller("mainPage", ["$scope", "$firebaseArray", "logging",
 
 
 
-    // Logout user
-    $scope.logout = function() {
-      var ref = new Firebase("https://cheveux-pure.firebaseio.com/" + logging.getUid() + "/");
-        console.log("lisapertee", logout);
-      ref.unauth();
-      location.reload();
-    };
+//     // Logout user
+//     $scope.logout = function() {
+//       var ref = new Firebase("https://cheveux-pure.firebaseio.com/" + logging.getUid() + "/");
+//         console.log("lisapertee", logout);
+//       ref.unauth();
+//       location.reload();
+//     };
 
 
 
@@ -46,6 +46,6 @@ app.controller("mainPage", ["$scope", "$firebaseArray", "logging",
 
 
 
-}]);
+// }]);
 
 

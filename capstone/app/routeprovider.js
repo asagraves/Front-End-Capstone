@@ -5,13 +5,13 @@ app.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'partials/userAuth.html',
-        controller: 'authUser'
+        templateUrl: 'partials/parallax.html',
+        controller: 'parallax'
       })
-      .when('/home', {
-        templateUrl: 'partials/main.html',
-        controller: 'mainPage'
-      })
+      // .when('/home', {
+      //   templateUrl: 'partials/main.html',
+      //   controller: 'mainPage'
+      // })
       // .when()
       .otherwise("/");
 }]);
