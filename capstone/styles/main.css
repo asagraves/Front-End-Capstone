@@ -50,25 +50,49 @@
   padding: 0px;
   margin-bottom: 0px;
   color: inherit;
-  background: url(http://placehold.it/1200x650/0033cc/ffffff) no-repeat center center fixed; 
+  background: url(https://scontent-atl3-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/11059428_945649028800299_1528371864669310978_n.jpg?oh=7817dac27c46c419ebe1e8997a807142&oe=56E50152) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 550px;
+  padding-bottom: 550px;
 }
 .content-space-two {
   padding: 0px;
   margin-bottom: 0px;
   color: inherit;
-  background: url(http://placehold.it/1200x650/cc0000/ffffff) no-repeat center center fixed; 
+  background: url(http://stylenet.com/files/11523/275018-davinesbanner.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 550px;
+  padding-bottom: 550px;
+}
+.content-space-three {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(https://scontent-atl3-1.xx.fbcdn.net/hphotos-xfa1/t31.0-8/10284790_938715632826972_2063582908843934324_o.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 550px;
+  padding-bottom: 550px;
+}
+.content-space-four {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(http://static1.squarespace.com/static/54f3ec24e4b0970ed1731bfc/t/55d4ccbfe4b00f3b16cfbd59/1440009412336/Screen+Shot+2015-08-19+at+2.33.18+PM.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 550px;
+  padding-bottom: 550px;
 }
 .page-break {
     width: 50%;
@@ -76,3 +100,15 @@
     background-color: #fff;
     margin: 0 auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
