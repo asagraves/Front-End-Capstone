@@ -5,8 +5,8 @@ app.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'partials/parallax.html',
-        controller: 'parallax'
+        templateUrl: 'partials/main.html',
+        controller: 'mainPage'
       })
       // .when('/home', {
       //   templateUrl: 'partials/main.html',
