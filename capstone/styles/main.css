@@ -55,8 +55,8 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 550px;
-  padding-bottom: 550px;
+  padding-top: 610px;
+  padding-bottom: 610px;
 }
 .content-space-two {
   padding: 0px;
@@ -67,20 +67,20 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 550px;
-  padding-bottom: 550px;
+  padding-top: 610px;
+  padding-bottom: 610px;
+
 }
 .content-space-three {
   padding: 0px;
   margin-bottom: 0px;
   color: inherit;
-  background: url(https://scontent-atl3-1.xx.fbcdn.net/hphotos-xfa1/t31.0-8/10284790_938715632826972_2063582908843934324_o.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 550px;
-  padding-bottom: 550px;
+  /*padding-top: 700px;
+  padding-bottom: 700px;*/
 }
 .content-space-four {
   padding: 0px;
@@ -90,9 +90,9 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  padding-top: 550px;
-  padding-bottom: 550px;
+  background-size: auto;
+  padding-top: 610px;
+  padding-bottom: 610px;
 }
 .page-break {
     width: 50%;
@@ -100,6 +100,15 @@
     background-color: #fff;
     margin: 0 auto;
 }
+
+.item-active {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-image: cover;
+}
+
+
 
 
 
