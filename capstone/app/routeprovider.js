@@ -8,10 +8,10 @@ app.config(['$routeProvider',
         templateUrl: 'partials/main.html',
         controller: 'mainPage'
       })
-      // .when('/home', {
-      //   templateUrl: 'partials/main.html',
-      //   controller: 'mainPage'
-      // })
+      .when('/welcome', {
+        templateUrl: 'partials/welcome.html',
+        controller: 'mainPage'
+      })
       // .when()
       .otherwise("/");
 }]);

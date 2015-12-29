@@ -48,29 +48,40 @@
 }
 .content-space-one {
   padding: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 100px;
   color: inherit;
-  background: url(https://scontent-atl3-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/11059428_945649028800299_1528371864669310978_n.jpg?oh=7817dac27c46c419ebe1e8997a807142&oe=56E50152) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(http://0201.nccdn.net/1_2/000/000/094/f08/logo-center.png) no-repeat center center fixed; 
+  -webkit-background-size: fit;
+  -moz-background-size: fit;
+  -o-background-size: fit;
+  background-size: fit;
   padding-top: 610px;
   padding-bottom: 610px;
 }
+
+.text-center {
+  margin-top: 100px;
+}
+
 .content-space-two {
   padding: 0px;
   margin-bottom: 0px;
-  color: inherit;
-  background: url(http://stylenet.com/files/11523/275018-davinesbanner.png) no-repeat center center fixed; 
+  background-color: black;
+  /*background: url("../images/davines.png") no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: fit;
   padding-top: 610px;
   padding-bottom: 610px;
-
 }
+
+.davinesImg {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
 .content-space-three {
   padding: 0px;
   margin-bottom: 0px;
@@ -79,18 +90,18 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /*padding-top: 700px;
-  padding-bottom: 700px;*/
+  padding-top: 700px;
+  padding-bottom: 700px;
 }
 .content-space-four {
   padding: 0px;
   margin-bottom: 0px;
   color: inherit;
-  background: url(http://static1.squarespace.com/static/54f3ec24e4b0970ed1731bfc/t/55d4ccbfe4b00f3b16cfbd59/1440009412336/Screen+Shot+2015-08-19+at+2.33.18+PM.png) no-repeat center center fixed; 
+  background: url(https://img1.etsystatic.com/062/0/10795927/il_570xN.777578739_r7ux.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: auto;
+  background-size: cover;
   padding-top: 610px;
   padding-bottom: 610px;
 }
@@ -108,6 +119,26 @@
   background-image: cover;
 }
 
+/*.carousel-slide {
+  max-height: 100px;
+}
+*/
+
+.carousel-inner.item img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.item-active img{
+  height: 1275px !important;
+}
+
+.productLine {
+  height: 100px;
+}
 
 
 
