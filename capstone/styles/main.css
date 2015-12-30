@@ -1,5 +1,11 @@
 /* navbar */
+.navbar-brand {
+  font-size: 1em;
+  color: grey;
+}
 .navbar-default {
+    font-size: 1.5em;
+    color: white;
     background-color: transparent;
     border-color: transparent;
     margin-bottom: 0px;
@@ -8,23 +14,31 @@
     border-radius: 0px;
     z-index: 10007;
 }
+
 .content-block-one {
   padding: 30px;
   margin-bottom: 0px;
   color: inherit;
   background-color: #eee;
 }
+
+.learnMore {
+
+}
+
 .content-block-one h1,
 .content-block-one .h1 {
   color: inherit;
 }
+
+
 .content-block-one p {
   margin-bottom: 15px;
   font-size: 21px;
   font-weight: 200;
 }
 .content-block-one > hr {
-  border-top-color: #d5d5d5;
+  /*border-top-color: #d5d5d5;*/
 }
 .container .content-block-one {
   border-radius: 6px;
@@ -59,21 +73,16 @@
   padding-bottom: 610px;
 }
 
-.text-center {
-  margin-top: 100px;
-}
-
 .content-space-two {
   padding: 0px;
   margin-bottom: 0px;
   background-color: black;
-  /*background: url("../images/davines.png") no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: fit;
-  padding-top: 610px;
-  padding-bottom: 610px;
+  padding-top: 400px;
+  padding-bottom: 400px;
 }
 
 .davinesImg {
@@ -90,21 +99,27 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 700px;
-  padding-bottom: 700px;
+  padding-top: 400px;
+  padding-bottom: 400px;
 }
+
 .content-space-four {
   padding: 0px;
   margin-bottom: 0px;
   color: inherit;
   background: url(https://img1.etsystatic.com/062/0/10795927/il_570xN.777578739_r7ux.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: stretch;
+  -moz-background-size: stretch;
+  -o-background-size: stretch;
+  background-size: stretch;
   padding-top: 610px;
-  padding-bottom: 610px;
+  padding-bottom: 600px;
 }
+
+.spaceFour {
+  margin-top: 75px;
+}
+
 .page-break {
     width: 50%;
     height: 3px;
@@ -132,12 +147,16 @@
   height: 500px;
 }
 
+.carousel-caption {
+  font-size: 3em;
+}
+
 .item-active img{
   height: 1275px !important;
 }
 
 .productLine {
-  height: 100px;
+  font-size: 2.5em;
 }
 
 
