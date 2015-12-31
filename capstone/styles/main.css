@@ -3,6 +3,7 @@
   font-size: 1em;
   color: grey;
 }
+
 .navbar-default {
     font-size: 1.5em;
     color: white;
@@ -22,10 +23,6 @@
   background-color: #eee;
 }
 
-.learnMore {
-
-}
-
 .content-block-one h1,
 .content-block-one .h1 {
   color: inherit;
@@ -37,15 +34,19 @@
   font-size: 21px;
   font-weight: 200;
 }
+
 .content-block-one > hr {
   /*border-top-color: #d5d5d5;*/
 }
+
 .container .content-block-one {
   border-radius: 6px;
 }
+
 .content-block-one .container {
   max-width: 100%;
 }
+
 @media screen and (min-width: 768px) {
   .content-block-one {
     padding-top: 48px;
@@ -60,17 +61,20 @@
     font-size: 63px;
   }
 }
+
 .content-space-one {
-  padding: 0px;
-  margin-bottom: 100px;
-  color: inherit;
   background: url(http://0201.nccdn.net/1_2/000/000/094/f08/logo-center.png) no-repeat center center fixed; 
-  -webkit-background-size: fit;
-  -moz-background-size: fit;
-  -o-background-size: fit;
-  background-size: fit;
   padding-top: 610px;
   padding-bottom: 610px;
+  background-color: #424242;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plzWork {
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .content-space-two {
@@ -104,20 +108,16 @@
 }
 
 .content-space-four {
-  padding: 0px;
-  margin-bottom: 0px;
-  color: inherit;
   background: url(https://img1.etsystatic.com/062/0/10795927/il_570xN.777578739_r7ux.jpg) no-repeat center center fixed; 
-  -webkit-background-size: stretch;
-  -moz-background-size: stretch;
-  -o-background-size: stretch;
-  background-size: stretch;
   padding-top: 610px;
   padding-bottom: 600px;
 }
 
 .spaceFour {
-  margin-top: 75px;
+  margin-top: 500px;
+  color: #424242;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-break {
@@ -133,11 +133,6 @@
   -o-background-size: cover;
   background-image: cover;
 }
-
-/*.carousel-slide {
-  max-height: 100px;
-}
-*/
 
 .carousel-inner.item img{
   position: absolute;
@@ -157,12 +152,46 @@
 
 .productLine {
   font-size: 2.5em;
+  background-color: #424242;
+}
+
+.paragraphDiv {
+  margin-top: 200px;
+  color: #424242;
+}
+
+
+    /********  welcome  ******/
+#image {
+
 }
 
 
 
 
+#marco {
+  padding: 30px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #eee;
+}
 
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 { 
+  color: white;
+  text-align: center;
+  margin-right: 150px;
+  margin-left: 150px; 
+  position: absolute; 
+  top: 200px; 
+  left: 0; 
+  right: 0;
+  width: 50%; 
+}
 
 
 
