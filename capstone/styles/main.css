@@ -64,18 +64,22 @@
 
 .content-space-one {
   background: url(http://0201.nccdn.net/1_2/000/000/094/f08/logo-center.png) no-repeat center center fixed; 
-  padding-top: 610px;
-  padding-bottom: 610px;
   background-color: #424242;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  vertical-align: center;
+  color: white;
+  height: 100vh;
+  padding-top: 50%;
+
 }
 
-#plzWork {
-  color: black;
-  margin-right: auto;
-  margin-left: auto;
+.welcomeHref {
+  color: white;
+  font-size: 1.5em;
 }
+
+
+
 
 .content-space-two {
   padding: 0px;
@@ -85,14 +89,14 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: fit;
-  padding-top: 400px;
-  padding-bottom: 400px;
+  height: 100vh;
 }
 
 .davinesImg {
   z-index: -1;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
+  vertical-align: center;
 }
 
 .content-space-three {
@@ -108,16 +112,17 @@
 }
 
 .content-space-four {
-  background: url(https://img1.etsystatic.com/062/0/10795927/il_570xN.777578739_r7ux.jpg) no-repeat center center fixed; 
-  padding-top: 610px;
-  padding-bottom: 600px;
+  background: url("../images/Map.jpg");
+  height: 100vh;
+  text-align: center;
+  padding-top: 10%
 }
 
-.spaceFour {
-  margin-top: 500px;
-  color: #424242;
-  margin-left: auto;
-  margin-right: auto;
+.overlay-text {
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+  text-shadow: 0 2px 1px #424242;
 }
 
 .page-break {
@@ -135,7 +140,7 @@
 }
 
 .carousel-inner.item img{
-  position: absolute;
+  /*position: absolute;*/
   top: 0;
   left: 0;
   min-width: 100%;
@@ -144,6 +149,7 @@
 
 .carousel-caption {
   font-size: 3em;
+
 }
 
 .item-active img{
