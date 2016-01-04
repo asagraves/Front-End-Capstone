@@ -1,11 +1,25 @@
 /* navbar */
 .navbar-brand {
-  font-size: 1em;
-  color: grey;
+  /*font-size: 1.5em;*/
+  color: white;
 }
 
+.navbar-brand {
+  color: white;
+  font-size: 2em;
+  text-shadow: 0 3px 2px #424242;
+}
+
+.nav-right {
+  color: white;
+  font-size: 2.2em;
+  text-shadow: 0 3px 2px #424242;
+}
+
+
+
 .navbar-default {
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
     background-color: transparent;
     border-color: transparent;
@@ -36,7 +50,7 @@
 }
 
 .content-block-one > hr {
-  /*border-top-color: #d5d5d5;*/
+  border-top-color: #d5d5d5;
 }
 
 .container .content-block-one {
@@ -63,128 +77,23 @@
 }
 
 .content-space-one {
-  background: url(http://0201.nccdn.net/1_2/000/000/094/f08/logo-center.png) no-repeat center center fixed; 
-  background-color: #424242;
+  background: url(http://www.hdwallpapersact.com/wp-content/gallery/plant/hd-wallpaper-of-plant.jpg) no-repeat center center fixed;
+  /*background-color: #D0D0D0;*/
   text-align: center;
   vertical-align: center;
   color: white;
   height: 100vh;
-  padding-top: 50%;
+  padding-top: 25%;
+  background-size: cover;
+  text-shadow: 0 3px 2px #424242;
+  font-size: 1.3em;
 
 }
+    /*welcome page*/
 
 .welcomeHref {
   color: white;
-  font-size: 1.5em;
-}
-
-
-
-
-.content-space-two {
-  padding: 0px;
-  margin-bottom: 0px;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: fit;
-  height: 100vh;
-}
-
-.davinesImg {
-  z-index: -1;
-  width: 50%;
-  height: 50%;
-  vertical-align: center;
-}
-
-.content-space-three {
-  padding: 0px;
-  margin-bottom: 0px;
-  color: inherit;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 400px;
-  padding-bottom: 400px;
-}
-
-.content-space-four {
-  background: url("../images/Map.jpg");
-  height: 100vh;
-  text-align: center;
-  padding-top: 10%
-}
-
-.overlay-text {
-  color: black;
-  text-align: center;
-  font-size: 1.5em;
-  text-shadow: 0 2px 1px #424242;
-}
-
-.page-break {
-    width: 50%;
-    height: 3px;
-    background-color: #fff;
-    margin: 0 auto;
-}
-
-.item-active {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-image: cover;
-}
-
-.carousel-inner.item img{
-  /*position: absolute;*/
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
-}
-
-.carousel-caption {
-  font-size: 3em;
-
-}
-
-.item-active img{
-  height: 1275px !important;
-}
-
-.productLine {
-  font-size: 2.5em;
-  background-color: #424242;
-}
-
-.paragraphDiv {
-  margin-top: 200px;
-  color: #424242;
-}
-
-
-    /********  welcome  ******/
-#image {
-
-}
-
-
-
-
-#marco {
-  padding: 30px;
-  margin-bottom: 0px;
-  color: inherit;
-  background-color: #eee;
-}
-
-.image { 
-   position: relative; 
-   width: 100%; /* for IE 6 */
+  font-size: 1.7em;
 }
 
 h2 { 
@@ -198,6 +107,62 @@ h2 {
   right: 0;
   width: 50%; 
 }
+
+
+.content-space-five {
+  background: url("../images/davines_littlemen2.jpg") no-repeat center;
+  height: 100vh;
+  text-align: center;
+  background-color: #E0E0E0;
+  padding-top: 40%
+}
+
+.overlay-text-2 {
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 0 2px 1px #424242;
+}
+
+
+
+    /*Carousel*/
+
+.carousel-caption {
+  font-size: 3em;
+  text-shadow: 0 2px 1px #424242;
+}
+
+
+
+.content-space-four {
+  background: url("../images/Map.jpg");
+  height: 100vh;
+  text-align: center;
+  padding-top: 5%
+}
+
+.overlay-text {
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 0 2px 1px #424242;
+}
+
+.page-break {
+    width: 50%;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+
+
+.paragraphDiv {
+  margin-top: 200px;
+  color: #424242;
+}
+
 
 
 
