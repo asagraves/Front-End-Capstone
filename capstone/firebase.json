@@ -1,0 +1,7 @@
+{
+  "firebase": "cheveux-pure",
+  "public": "/",
+  "ignore": [
+    "firebase.json"
+  ]
+}
