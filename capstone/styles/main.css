@@ -6,13 +6,13 @@
 
 .navbar-brand {
   color: white;
-  font-size: 2em;
+  font-size: 1.7em;
   text-shadow: 0 3px 2px #424242;
 }
 
 .nav-right {
   color: white;
-  font-size: 2.2em;
+  font-size: 2em;
   text-shadow: 0 3px 2px #424242;
 }
 
@@ -76,7 +76,7 @@
   }
 }
 
-.content-space-one {
+.content-space-main {
   background: url(http://www.hdwallpapersact.com/wp-content/gallery/plant/hd-wallpaper-of-plant.jpg) no-repeat center;
   text-align: center;
   vertical-align: center;
@@ -85,22 +85,21 @@
   padding-top: 25%;
   background-size: cover;
   text-shadow: 0 3px 2px #424242;
-  font-size: 1.3em;
-}
-.welcomeContent {
-  background: url(https://images.unsplash.com/photo-1450297166380-cabe503887e5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=b65212e52dde499d08379b85bd3df004) no-repeat center;
-  height: 100vh;
-  background-size: cover;
+  
 }
 
 
 .overlay-text-one {
   color: white;
-  font-size: 1.5em;
+  font-size: 2em;
   text-shadow: 0 3px 2px #424242;
 }
-
-
+/*.overlay-text-one-two {
+  color: white;
+  font-size: 1.3em;
+  text-shadow: 0 3px 2px #424242;
+}
+*/
     /*welcome page*/
 .overlay-text-welcome { 
   font-size: 1.7em;
@@ -115,6 +114,11 @@
   color: white;
   font: 'LeagueGothicRegular';
 }
+.welcomeContent {
+  background: url(https://images.unsplash.com/photo-1450297166380-cabe503887e5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=b65212e52dde499d08379b85bd3df004) no-repeat center;
+  height: 100vh;
+  background-size: cover;
+}
 
 
 
@@ -128,8 +132,8 @@
 .overlay-text-2 {
   color: black;
   text-align: center;
-  font-size: 2em;
-  text-shadow: 0 2px 1px #424242;
+  font-size: 1.7em;
+  /*text-shadow: 0 2px 1px #424242;*/
 }
 
 
@@ -164,7 +168,11 @@
   color: #424242;
 }
 
-
+/*.item-active img {
+  background-image: cover;
+  height: 100vh;
+  width: 190vh;
+}*/
 
 
 
