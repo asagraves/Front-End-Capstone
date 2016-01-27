@@ -1,0 +1,68 @@
+.navigation > div {
+  float: right;
+  list-stlye-type: none;
+  margin:3px 8px;
+  border: 1px dotted grey;
+  padding: 5px;
+  font-family: arial;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.navigation > div:hover {
+  background-color: white;
+}
+
+
+body {
+  text-align: center;
+  background-image: url(http://mikeandrewphotography.com/wp-content/uploads/2014/04/Fishing-Boat-Hoi-An-Vietnam.jpg);
+  background-size: cover;
+
+  color: white;
+
+}
+
+#h1 {}
+
+#h3 {
+  font-size: 100;
+}
+
+#image-1 {float: right;
+  border: none;
+
+}
+
+
+#my-header > .navigation > div.bordered {
+  background-color: black;
+  width: 100px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.float-left{
+  float: left;
+}
+
+.cleared {
+  clear: both;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-left: 40%;
+    color: white;
+    background-color: black;
+    border: 10px;
+
+
+}
+
+
+
+
+

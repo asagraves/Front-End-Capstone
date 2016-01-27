@@ -1,0 +1,75 @@
+
+
+// console.log("App js");
+
+//have a base sandwich
+        //have methods to add bread, meats, etc
+
+var Sandwich = (function(buildingSandwich){
+
+    //private interface
+        var price = 0;
+        var currentSandwichItems = [];
+
+    //Public Interface
+        buildingSandwich.getPrice =  function(){
+            return price;
+            console.log(getPrice);
+        }
+
+        buildingSandwich.addPricedItem = function(itemCost){
+            price += itemCost;
+            console.log(addPricedItem);
+        }
+
+        buildingSandwich.addItem = function(item){
+            currentSandwichItems.push(item);
+        }
+
+        buildingSandwich.seeCurrentSandwich = function(){
+            console.log("Current Sandwich: ", currentSandwichItems);
+
+            /*
+              Loop over currentSandwichItems, which is an array of arrays because we have the 'multiple'
+              attribute on the select tag in html, which returns an array
+            */
+            for(var i = 0; i < currentSandwichItems.length; i++){
+                console.log("The current items are ",currentSandwichItems[i]);
+
+                switch(currentSandwichItems[i]){
+                    case currentSandwichItems[0]:
+                        $("#sandwich_items_output").append("<h3>Bread</h3>");
+                        break;
+                    case currentSandwichItems[1]:
+                        $("#sandwich_items_output").append("<h3>Cheese</h3>");
+                        break;
+                    case currentSandwichItems[2]:
+                        $("#sandwich_items_output").append("<h3>Meats</h3>");
+                        break;
+                    case currentSandwichItems[3]:
+                        $("#sandwich_items_output").append("<h3>Condiments</h3>");
+                        break;
+                    case currentSandwichItems[4]:
+                        $("#sandwich_items_output").append("<h3>Veggies</h3>");
+                        break;
+                        console.log(currentSandwichItems);
+                }
+
+                //on each array at each index value, loop over it and tell us what is stored there
+                for(var n = 0; n < currentSandwichItems[i].length; n++){
+                    
+                    console.log("Inside of the array on the item "+currentSandwichItems[i][n] );
+                    if(currentSandwichItems[i].length > 1){
+                        $("#sandwich_items_output").append(" "+currentSandwichItems[i][n]+", ");
+                    } else {
+                        $("#sandwich_items_output").append(" "+currentSandwichItems[i][n]);
+                    }
+                    
+                }
+            }
+        }
+
+    
+        return buildingSandwich;
+
+})(Sandwich || {});
