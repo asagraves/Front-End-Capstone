@@ -6,6 +6,7 @@
 - npm install JQuery
 
 #Technologies
+- Javascript
 - Angular
 - JQuery
 - HTML
