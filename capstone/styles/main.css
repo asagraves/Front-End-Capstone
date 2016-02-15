@@ -62,106 +62,90 @@
 }
 
 @media screen and (min-width: 768px) {
-  .content-block-one {
-    padding-top: 48px;
-    padding-bottom: 48px;
+
+  .content-space-one {
+    background: url(http://www.hdwallpapersact.com/wp-content/gallery/plant/hd-wallpaper-of-plant.jpg) no-repeat center;
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    height: 100vh;
+    padding-top: 25%;
+    background-size: cover;
+    text-shadow: 0 3px 2px #424242;
+    font-size: 1.5em;
   }
-  .container .content-block-one {
-    padding-right: 60px;
-    padding-left: 60px;
+  .welcomeContent {
+    background: url(https://images.unsplash.com/photo-1450297166380-cabe503887e5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=b65212e52dde499d08379b85bd3df004) no-repeat center;
+    height: 100vh;
+    background-size: cover;
   }
-  .content-block-one h1,
-  .content-block-one .h1 {
-    font-size: 63px;
+  .overlay-text-learnMore {
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 0 3px 2px #424242;
+    padding-top: 500px;
+    padding-left: 190px;
   }
-}
+  .overlay-text-welcome {
+    font-size: 5em;
+    text-shadow: 0 3px 2px #424242;
+ }
+      /*welcome page*/
+  .overlay-text-welcome {
+    font-size: 1.7em;
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 50px;
+    width: 63%;
+    text-shadow: 0px 3px 3px #4d4d4d;
+    color: white;
+    font: 'LeagueGothicRegular';
+  }
+  .content-space-five {
+    background: url("../images/davines_littlemen2.jpg") no-repeat center;
+    height: 100vh;
+    text-align: center;
+    background-color: #E0E0E0;
+    padding-top: 45%
+  }
+  .overlay-text-2 {
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0 2px 1px #424242;
+  }
+      /*Carousel*/
+  .carousel-caption {
+    font-size: 3em;
+    text-shadow: 0 2px 1px #424242;
+  }
 
-.content-space-one {
-  background: url(http://www.hdwallpapersact.com/wp-content/gallery/plant/hd-wallpaper-of-plant.jpg) no-repeat center;
-  text-align: center;
-  vertical-align: center;
-  color: white;
-  height: 100vh;
-  padding-top: 25%;
-  background-size: cover;
-  text-shadow: 0 3px 2px #424242;
-  font-size: 1.3em;
-}
-.welcomeContent {
-  background: url(https://images.unsplash.com/photo-1450297166380-cabe503887e5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=b65212e52dde499d08379b85bd3df004) no-repeat center;
-  height: 100vh;
-  background-size: cover;
-}
+  .content-space-four {
+    background: url("../images/Map.jpg");
+    height: 100vh;
+    text-align: center;
+    padding-top: 5%
+  }
+  .overlay-text {
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0 2px 1px #424242;
+  }
+  .page-break {
+      width: 50%;
+      height: 3px;
+      background-color: #fff;
+      margin: 0 auto;
+  }
+  .paragraphDiv {
+    margin-top: 200px;
+    color: #424242;
+  }
 
-
-.overlay-text-one {
-  color: white;
-  font-size: 1.5em;
-  text-shadow: 0 3px 2px #424242;
-}
-
-
-    /*welcome page*/
-.overlay-text-welcome { 
-  font-size: 1.7em;
-  color: white;
-  text-align: left;
-  position: absolute; 
-  top: 50px; 
-  left: 0px; 
-  right: 50px;
-  width: 63%;
-  text-shadow: 0px 3px 3px #4d4d4d;
-  color: white;
-  font: 'LeagueGothicRegular';
-}
-
-
-
-.content-space-five {
-  background: url("../images/davines_littlemen2.jpg") no-repeat center;
-  height: 100vh;
-  text-align: center;
-  background-color: #E0E0E0;
-  padding-top: 40%
-}
-.overlay-text-2 {
-  color: black;
-  text-align: center;
-  font-size: 2em;
-  text-shadow: 0 2px 1px #424242;
-}
-
-
-
-    /*Carousel*/
-.carousel-caption {
-  font-size: 3em;
-  text-shadow: 0 2px 1px #424242;
-}
-
-
-.content-space-four {
-  background: url("../images/Map.jpg");
-  height: 100vh;
-  text-align: center;
-  padding-top: 5%
-}
-.overlay-text {
-  color: black;
-  text-align: center;
-  font-size: 2em;
-  text-shadow: 0 2px 1px #424242;
-}
-.page-break {
-    width: 50%;
-    height: 3px;
-    background-color: #fff;
-    margin: 0 auto;
-}
-.paragraphDiv {
-  margin-top: 200px;
-  color: #424242;
 }
 
 
