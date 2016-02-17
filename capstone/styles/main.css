@@ -125,7 +125,7 @@
 
 }
 
-.content-space-one {
+/*.content-space-one {
   background: url(http://www.hdwallpapersact.com/wp-content/gallery/plant/hd-wallpaper-of-plant.jpg) no-repeat center center fixed;
   text-align: center;
   vertical-align: center;
@@ -134,7 +134,7 @@
   padding-top: 25%;
   background-size: cover;
   text-shadow: 0 3px 2px #424242;
-}
+}*/
 .learnMoreAbout {
   color: white;
 }
@@ -184,7 +184,7 @@
   color: black;
   text-align: center;
   font-size: 1.7em;
-  /*text-shadow: 0 2px 1px #424242;*/
+
 }
 
 
