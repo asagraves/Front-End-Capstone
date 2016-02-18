@@ -1,10 +1,10 @@
 app.controller("mainPage",function(){
-  $(document).ready(function(){       
+  $(document).ready(function(){
     var scroll_start = 0;
     var startchange = $('#startchange');
     var offset = startchange.offset();
         if (startchange.length){
-    $(document).scroll(function() { 
+    $(document).scroll(function() {
         scroll_start = $(this).scrollTop();
         if(scroll_start > offset.top) {
               // $(".navbar-default").css('background-color', '#ffffff');
@@ -15,6 +15,14 @@ app.controller("mainPage",function(){
         }
     });
 });
+
+<script src="//use.resrc.it/0.9"></script>
+      <!-- 2. On page ready, run resrc -->
+    <script>
+        resrc.ready(function () {
+          resrc.run();
+        });
+    </script>
 
 
 
@@ -56,7 +64,7 @@ app.controller("mainPage",function(){
 
 
 
-    
+
 
 
 
