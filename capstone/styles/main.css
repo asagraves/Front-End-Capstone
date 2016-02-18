@@ -63,11 +63,11 @@
     /*End Carousel*/
 
 .content-space-four {
-  /*background: url("../images/Location.jpg") no-repeat center center fixed;*/
+  background: url("../images/Location.jpg") no-repeat center left fixed;
   height: 100vh;
   text-align: center;
   padding-top: 5%;
-  background-size: 105%;
+  background-size: cover;
 }
 .overlay-text {
   color: black;

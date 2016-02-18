@@ -14,15 +14,15 @@ app.controller("mainPage",function(){
        });
         }
     });
+
+  // resrc.ready(function() {
+  //   resrc.run();
+  // });
+
+
 });
 
-<script src="//use.resrc.it/0.9"></script>
-      <!-- 2. On page ready, run resrc -->
-    <script>
-        resrc.ready(function () {
-          resrc.run();
-        });
-    </script>
+
 
 
 
