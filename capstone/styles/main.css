@@ -1,26 +1,6 @@
-/* navbar */
-.navbar-brand {
-  /*font-size: 1.5em;*/
-  color: white;
-}
-
-.navbar-brand {
-  color: white;
-  font-size: 1.4em;
-  text-shadow: 0 3px 2px #424242;
-}
-
-.nav-right {
-  color: white;
-  font-size: 1.7em;
-  text-shadow: 0 3px 2px #424242;
-}
-
-
-
+    /* Navbar */
 .navbar-default {
     font-size: 1em;
-    color: white;
     background-color: transparent;
     border-color: transparent;
     margin-bottom: 0px;
@@ -29,104 +9,16 @@
     border-radius: 0px;
     z-index: 10007;
 }
-
-.content-block-one {
-  padding: 30px;
-  margin-bottom: 0px;
-  color: inherit;
-  background-color: #eee;
+#nav-text {
+  color: white;
+  font-size: 2em;
 }
-
-.content-block-one h1,
-.content-block-one .h1 {
-  color: inherit;
-}
+        /*End Navbar*/
 
 
-.content-block-one p {
-  margin-bottom: 15px;
-  font-size: 21px;
-  font-weight: 200;
-}
-
-.content-block-one > hr {
-  border-top-color: #d5d5d5;
-}
-
-.container .content-block-one {
-  border-radius: 6px;
-}
-
-.content-block-one .container {
-  max-width: 100%;
-}
-
-@media screen and (min-width: 768px) {
-
-  .content-space-one {
-    background: url("../images/PlantHD.jpg") no-repeat center;
-    text-align: center;
-    vertical-align: center;
-    color: white;
-    height: 100vh;
-    padding-top: 25%;
-    background-size: cover;
-    text-shadow: 0 3px 2px #424242;
-    font-size: 1.5em;
-  }
-  .welcomeContent {
-    background: url(https://images.unsplash.com/photo-1450297166380-cabe503887e5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=b65212e52dde499d08379b85bd3df004) no-repeat center;
-    height: 100vh;
-    background-size: cover;
-  }
-  .overlay-text-learnMore {
-    color: white;
-    font-size: 1.5em;
-    text-shadow: 0 3px 2px #424242;
-    padding-top: 500px;
-    padding-left: 190px;
-  }
-  .overlay-text-welcome {
-    font-size: 5em;
-    text-shadow: 0 3px 2px #424242;
- }
-      /*welcome page*/
-  .overlay-text-welcome {
-    font-size: 1.7em;
-    color: white;
-    text-align: left;
-    position: absolute;
-    top: 50px;
-    left: 0px;
-    right: 50px;
-    width: 63%;
-    text-shadow: 0px 3px 3px #4d4d4d;
-    color: white;
-    font: 'LeagueGothicRegular';
-  }
-  .content-space-five {
-    background: url("../images/davines_littlemen2.jpg") no-repeat center;
-    height: 100vh;
-    text-align: center;
-    background-color: #E0E0E0;
-    padding-top: 45%
-  }
-  .overlay-text-2 {
-    color: black;
-    text-align: center;
-    font-size: 2em;
-    text-shadow: 0 2px 1px #424242;
-  }
-      /*Carousel*/
-  .carousel-caption {
-    font-size: 3em;
-    text-shadow: 0 2px 1px #424242;
-  }
-
-}
-
-/*.content-space-one {
-  background: url(http://www.hdwallpapersact.com/wp-content/gallery/plant/hd-wallpaper-of-plant.jpg) no-repeat center center fixed;
+    /*Home page*/
+.content-space-one {
+  background: url("../images/PlantHD.jpg") no-repeat center center fixed;
   text-align: center;
   vertical-align: center;
   color: white;
@@ -134,24 +26,64 @@
   padding-top: 25%;
   background-size: cover;
   text-shadow: 0 3px 2px #424242;
-}*/
+  font-size: 1.5em;
+}
 .learnMoreAbout {
   color: white;
 }
 
-
-.overlay-text-one {
-  color: white;
+.content-space-two {
+  background: url("../images/davines_littlemen2.jpg") no-repeat center center fixed;
+  height: 100vh;
+  text-align: center;
+  background-color: #E0E0E0;
+  padding-top: 45%
+}
+.overlay-text-2 {
+  color: black;
+  text-align: center;
   font-size: 2em;
-  text-shadow: 0 3px 2px #424242;
+  text-shadow: 0 2px 1px #424242;
 }
-/*.overlay-text-one-two {
-  color: white;
-  font-size: 1.3em;
-  text-shadow: 0 3px 2px #424242;
+    /*Carousel*/
+.carousel-caption {
+  font-size: 3em;
+  text-shadow: 0 2px 1px #424242;
 }
-*/
-    /*welcome page*/
+.page-break {
+    width: 50%;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.paragraphDiv {
+  margin-top: 200px;
+  color: #424242;
+}
+    /*End Carousel*/
+
+.content-space-four {
+  background: url("../images/Location.jpg") no-repeat center center fixed;
+  height: 100vh;
+  text-align: center;
+  padding-top: 5%;
+  background-size: 125%;
+}
+.overlay-text {
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 0 2px 1px #424242;
+}
+
+          /*End Home page*/
+
+    /*Welcome page*/
+.welcomeContent {
+  background: url("../images/welcome.jpg") no-repeat center;
+  height: 100vh;
+  background-size: cover;
+}
 .overlay-text-welcome {
   font-size: 1.7em;
   color: white;
@@ -165,67 +97,7 @@
   color: white;
   font: 'LeagueGothicRegular';
 }
-.welcomeContent {
-  background: url(https://images.unsplash.com/photo-1450297166380-cabe503887e5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=b65212e52dde499d08379b85bd3df004) no-repeat center;
-  height: 100vh;
-  background-size: cover;
-}
-
-
-
-.content-space-five {
-  background: url("../images/davines_littlemen2.jpg") no-repeat center;
-  height: 100vh;
-  text-align: center;
-  background-color: #E0E0E0;
-  padding-top: 40%
-}
-.overlay-text-2 {
-  color: black;
-  text-align: center;
-  font-size: 1.7em;
-
-}
-
-
-
-    /*Carousel*/
-.carousel-caption {
-  font-size: 3em;
-  text-shadow: 0 2px 1px #424242;
-}
-
-
-  .content-space-four {
-    background: url("../images/Map.jpg");
-    height: 100vh;
-    text-align: center;
-    padding-top: 5%
-  }
-  .overlay-text {
-    color: black;
-    text-align: center;
-    font-size: 2em;
-    text-shadow: 0 2px 1px #424242;
-  }
-  .page-break {
-      width: 50%;
-      height: 3px;
-      background-color: #fff;
-      margin: 0 auto;
-  }
-  .paragraphDiv {
-    margin-top: 200px;
-    color: #424242;
-  }
-
-}
-
-/*.item-active img {
-  background-image: cover;
-  height: 100vh;
-  width: 190vh;
-}*/
+    /*End Welcome page*/
 
 
 
