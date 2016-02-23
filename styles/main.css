@@ -33,7 +33,7 @@
 }
 
 .content-space-two {
-  background: url("../images/davines_littlemen2.jpg") no-repeat center center fixed;
+  background: url("../images/davines_littlemen2.jpg") no-repeat center;
   height: 100vh;
   text-align: center;
   background-color: #E0E0E0;
