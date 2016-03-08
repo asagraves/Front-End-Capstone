@@ -18,7 +18,7 @@
 
     /*Home page*/
 .content-space-one {
-  background: url("../images/PlantHD.jpg") no-repeat center center fixed;
+  background: url("../images/PlantHD.jpg") no-repeat center;
   text-align: center;
   vertical-align: center;
   color: white;
@@ -63,7 +63,7 @@
     /*End Carousel*/
 
 .content-space-four {
-  background: url("../images/Location.jpg") no-repeat center left fixed;
+  background: url("../images/Location.jpg") no-repeat center;
   height: 100vh;
   text-align: center;
   padding-top: 5%;
